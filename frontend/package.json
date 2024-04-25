@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "devDependencies": {
+    "imba": "^2.0.0-alpha.235",
+    "vite": "^5.2.10",
+    "vite-plugin-imba": "^0.10.3"
+  },
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun x vite",
+    "dist": "bun x --bun vite build",
+    "preview": "bun x --bun vite preview"
+  }
+}
